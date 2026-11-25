@@ -1,0 +1,8 @@
+{
+  "frame_drop_ratio": 1.5,
+  "underrun_window_ms": 1000,
+  "underrun_burst_count": 3,
+  "backlight_tolerance": 0.10,
+  "chain_window_ms": 100,
+  "around_window_s": 30
+}

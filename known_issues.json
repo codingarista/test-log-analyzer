@@ -1,0 +1,37 @@
+[
+  {
+    "id": "KI-001",
+    "anomaly_type": "UNDERRUN_BURST",
+    "title": "連續 UNDERRUN（畫面資料供應不及）",
+    "possible_cause": "記憶體頻寬不足，畫面資料來不及送到顯示控制器",
+    "check_steps": ["確認同時段是否有其他高負載程式", "降低解析度重測，確認是否仍會發生", "檢查記憶體頻率設定"]
+  },
+  {
+    "id": "KI-002",
+    "anomaly_type": "UNDERRUN_INTERMITTENT",
+    "title": "機率性 UNDERRUN",
+    "possible_cause": "偶發的瞬間負載，尚不足以判定為穩定重現的問題",
+    "check_steps": ["記錄發生時間與頻率", "延長測試時間，確認重現率"]
+  },
+  {
+    "id": "KI-003",
+    "anomaly_type": "FRAME_DROP",
+    "title": "掉幀",
+    "possible_cause": "常為 UNDERRUN 的連鎖反應；若同時段無 UNDERRUN，可能是系統負載過高",
+    "check_steps": ["確認同時段是否有 UNDERRUN", "若無，檢查系統負載"]
+  },
+  {
+    "id": "KI-004",
+    "anomaly_type": "DSI_ERROR",
+    "title": "DSI 傳輸錯誤（畫面花屏）",
+    "possible_cause": "傳輸線路接觸不良或訊號品質不佳",
+    "check_steps": ["確認排線連接是否確實", "更換排線後重測"]
+  },
+  {
+    "id": "KI-005",
+    "anomaly_type": "BACKLIGHT_OUT_OF_RANGE",
+    "title": "背光亮度異常（忽明忽暗）",
+    "possible_cause": "亮度設定被其他程式調整，或背光控制不穩定",
+    "check_steps": ["確認亮度設定是否被其他程式修改", "量測實際亮度並與 log 比對"]
+  }
+]
