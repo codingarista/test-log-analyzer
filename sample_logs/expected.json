@@ -1,0 +1,323 @@
+{
+  "normal.log": [],
+  "underrun_flicker.log": [
+    {
+      "type": "UNDERRUN_BURST",
+      "line": 8240,
+      "time": "2026-11-25 10:02:15.000"
+    },
+    {
+      "type": "UNDERRUN_BURST",
+      "line": 8241,
+      "time": "2026-11-25 10:02:15.020"
+    },
+    {
+      "type": "UNDERRUN_BURST",
+      "line": 8242,
+      "time": "2026-11-25 10:02:15.040"
+    },
+    {
+      "type": "FRAME_DROP",
+      "line": 8243,
+      "time": "2026-11-25 10:02:15.045",
+      "gap_ms": 50.1
+    },
+    {
+      "type": "UNDERRUN_BURST",
+      "line": 8244,
+      "time": "2026-11-25 10:02:15.060"
+    },
+    {
+      "type": "UNDERRUN_INTERMITTENT",
+      "line": 18304,
+      "time": "2026-11-25 10:05:00.000"
+    }
+  ],
+  "dsi_error.log": [
+    {
+      "type": "DSI_ERROR",
+      "line": 16475,
+      "time": "2026-11-25 10:04:30.000"
+    },
+    {
+      "type": "DSI_ERROR",
+      "line": 16485,
+      "time": "2026-11-25 10:04:30.150"
+    },
+    {
+      "type": "DSI_ERROR",
+      "line": 16495,
+      "time": "2026-11-25 10:04:30.300"
+    },
+    {
+      "type": "DSI_ERROR",
+      "line": 16505,
+      "time": "2026-11-25 10:04:30.450"
+    },
+    {
+      "type": "DSI_ERROR",
+      "line": 16515,
+      "time": "2026-11-25 10:04:30.600"
+    }
+  ],
+  "backlight_unstable.log": [
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 21963,
+      "time": "2026-11-25 10:06:00.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22024,
+      "time": "2026-11-25 10:06:01.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22085,
+      "time": "2026-11-25 10:06:02.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22146,
+      "time": "2026-11-25 10:06:03.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22207,
+      "time": "2026-11-25 10:06:04.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22268,
+      "time": "2026-11-25 10:06:05.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22329,
+      "time": "2026-11-25 10:06:06.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22390,
+      "time": "2026-11-25 10:06:07.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22451,
+      "time": "2026-11-25 10:06:08.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22512,
+      "time": "2026-11-25 10:06:09.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22573,
+      "time": "2026-11-25 10:06:10.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22634,
+      "time": "2026-11-25 10:06:11.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22695,
+      "time": "2026-11-25 10:06:12.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22756,
+      "time": "2026-11-25 10:06:13.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22817,
+      "time": "2026-11-25 10:06:14.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22878,
+      "time": "2026-11-25 10:06:15.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 22939,
+      "time": "2026-11-25 10:06:16.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 23000,
+      "time": "2026-11-25 10:06:17.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 23061,
+      "time": "2026-11-25 10:06:18.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 23122,
+      "time": "2026-11-25 10:06:19.000"
+    }
+  ],
+  "mixed.log": [
+    {
+      "type": "UNDERRUN_BURST",
+      "line": 6104,
+      "time": "2026-11-25 10:01:40.000"
+    },
+    {
+      "type": "UNDERRUN_BURST",
+      "line": 6105,
+      "time": "2026-11-25 10:01:40.020"
+    },
+    {
+      "type": "UNDERRUN_BURST",
+      "line": 6106,
+      "time": "2026-11-25 10:01:40.040"
+    },
+    {
+      "type": "FRAME_DROP",
+      "line": 6107,
+      "time": "2026-11-25 10:01:40.041",
+      "gap_ms": 49.9
+    },
+    {
+      "type": "UNDERRUN_BURST",
+      "line": 6109,
+      "time": "2026-11-25 10:01:40.060"
+    },
+    {
+      "type": "DSI_ERROR",
+      "line": 15256,
+      "time": "2026-11-25 10:04:10.000"
+    },
+    {
+      "type": "DSI_ERROR",
+      "line": 15266,
+      "time": "2026-11-25 10:04:10.150"
+    },
+    {
+      "type": "DSI_ERROR",
+      "line": 15276,
+      "time": "2026-11-25 10:04:10.300"
+    },
+    {
+      "type": "DSI_ERROR",
+      "line": 15286,
+      "time": "2026-11-25 10:04:10.450"
+    },
+    {
+      "type": "DSI_ERROR",
+      "line": 15296,
+      "time": "2026-11-25 10:04:10.600"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 24409,
+      "time": "2026-11-25 10:06:40.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 24470,
+      "time": "2026-11-25 10:06:41.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 24531,
+      "time": "2026-11-25 10:06:42.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 24591,
+      "time": "2026-11-25 10:06:43.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 24653,
+      "time": "2026-11-25 10:06:44.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 24713,
+      "time": "2026-11-25 10:06:45.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 24774,
+      "time": "2026-11-25 10:06:46.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 24835,
+      "time": "2026-11-25 10:06:47.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 24897,
+      "time": "2026-11-25 10:06:48.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 24958,
+      "time": "2026-11-25 10:06:49.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 25019,
+      "time": "2026-11-25 10:06:50.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 25080,
+      "time": "2026-11-25 10:06:51.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 25141,
+      "time": "2026-11-25 10:06:52.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 25202,
+      "time": "2026-11-25 10:06:53.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 25263,
+      "time": "2026-11-25 10:06:54.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 25324,
+      "time": "2026-11-25 10:06:55.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 25385,
+      "time": "2026-11-25 10:06:56.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 25446,
+      "time": "2026-11-25 10:06:57.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 25507,
+      "time": "2026-11-25 10:06:58.000"
+    },
+    {
+      "type": "BACKLIGHT_OUT_OF_RANGE",
+      "line": 25568,
+      "time": "2026-11-25 10:06:59.000"
+    },
+    {
+      "type": "UNKNOWN_ERROR",
+      "line": 30507,
+      "time": "2026-11-25 10:08:20.000"
+    }
+  ]
+}
